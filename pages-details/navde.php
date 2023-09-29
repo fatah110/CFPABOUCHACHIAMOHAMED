@@ -54,10 +54,8 @@
                     <a class="nav-link" href="../page/a.php">عروض التكوين</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../page/4.php">من نحن</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../page/4.php">اتصل بنا</a>
+               <li class="nav-item"><a class="nav-link" href="../page/apropos.php">من نحن</a></li>
+            <li class="nav-item"><a class="nav-link" href="../page/contacter.php">اتصل بنا</a></li>
                 </li>
             </ul>
         </div>
