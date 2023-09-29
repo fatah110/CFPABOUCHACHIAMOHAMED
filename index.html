@@ -16,6 +16,31 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <style>
+	        /* تخصيص حجم ولون النص في شريط التنقل */
+        .navbar.navbar-expand-lg.navbar-dark {
+            background-color: black;
+        }
+
+        .navbar-brand {
+            font-size: 20x; /* حجم النص */
+            color: white; /* لون النص */
+            text-decoration: none; /* إزالة التأثيرات النصية */
+        }
+
+        .navbar-toggler-icon {
+            background-color: white; /* لون أيقونة القائمة الجانبية */
+        }
+
+        .navbar-nav .nav-link {
+            font-size: 20x; /* حجم النص */
+            color: white !important; /* لون النص وإلغاء أي لون موروث */
+            text-decoration: none; /* إزالة التأثيرات النصية */
+        }
+
+        /* تخصيص الروابط عند التحويل إلى حالة مختارة (active) */
+        .navbar-nav .nav-item.active .nav-link {
+            font-weight: bold; /* تغيير وزن النص عند التحويل إلى حالة مختارة */
+        }
         body {
             font-family: Arial, sans-serif;
         }
